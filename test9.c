@@ -1,0 +1,24 @@
+//打印100~200之间的素数
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	for (int i = 100; i <= 200; i++)
+	{
+		for (int j = 2; j < i; j++)
+		{
+			if (i % j == 0)
+			{
+				break;
+			}
+
+			if (i == j + 1)
+			{
+				printf("%d ", i);
+			}
+		}
+
+	}
+
+	return 0;
+}
