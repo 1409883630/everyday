@@ -1,8 +1,8 @@
-//12*12³Ë·¨±í
+//12*12ä¹˜æ³•è¡¨.
 #include<stdio.h>
-void add(int n)//¹¹ÔìÒ»¸öº¯Êý
+void add(int n)//æž„é€ ä¸€ä¸ªå‡½æ•°
 {
-	for (int i = 1; i < n + 1; i++)//Ë«ÖØforÑ­»·´òÓ¡
+	for (int i = 1; i < n + 1; i++)//åŒé‡forå¾ªçŽ¯æ‰“å°
 	{
 		for (int j = 1; j <= i; j++)
 		{
@@ -15,6 +15,6 @@ int main()
 {
 	int a;
 	scanf("%d", &a);
-	add(a);//µ÷ÓÃ
+	add(a);//è°ƒç”¨
 	return 0;
 }
