@@ -1,4 +1,4 @@
-//µÝ¹éÇónµÄ½×³Ë
+//é€’å½’æ±‚nçš„é˜¶ä¹˜
 #include<stdio.h>
 int ret=1;
 int add(int n)
