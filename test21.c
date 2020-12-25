@@ -1,4 +1,4 @@
-//����һ������ÿλ֮�ͣ��ݹ�ʵ�֣�
+//计算一个数的每位之和（递归实现）.
 #include<stdio.h>
 int  DigitSum(int n)
 {
