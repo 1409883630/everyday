@@ -1,3 +1,4 @@
+// æ¯”è¾ƒä¸¤ä¸ªæ•°å¤§å°ï¼Œè¾“å‡ºå¤§æ•°ï¼Œå‡½æ•°å½¢å¼.
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int compare(int x, int y)
@@ -12,13 +13,13 @@ int compare(int x, int y)
 	}
 	else if (x=y)
 	{
-	   printf("Á½¸öÊıÒ»Ñù´ó");
+	   printf("ä¸¤ä¸ªæ•°ä¸€æ ·å¤§");
 	}
 }
 int main()
 {
 	int a, b,z;
-	printf("ÊäÈëÁ½¸öÊı£º");
+	printf("è¾“å…¥ä¸¤ä¸ªæ•°ï¼š");
 	scanf("%d %d", &a, &b);
 	z = compare(a, b);
 	printf("%d\n", z);
