@@ -1,8 +1,8 @@
-//ÇóÁ½¸öÊı¶ş½øÖÆÖĞ²»Í¬Î»µÄ¸öÊı
+//æ±‚ä¸¤ä¸ªæ•°äºŒè¿›åˆ¶ä¸­ä¸åŒä½çš„ä¸ªæ•°.
 #include <stdio.h>
 int com(int m, int n)
 {
-	int tmp = m^n;//ÀûÓÃ·ûºÅÎ»ÅĞ¶Ï
+	int tmp = m^n;//åˆ©ç”¨ç¬¦å·ä½åˆ¤æ–­
 	int count = 0;
 	while (tmp)
 	{
@@ -14,7 +14,7 @@ int com(int m, int n)
 int main()
 {
 	int m, n;
-	while (scanf("%d %d", &m, &n) == 2)//¿ÉÒÔÑ­»·ÅĞ¶Ï
+	while (scanf("%d %d", &m, &n) == 2)//å¯ä»¥å¾ªç¯åˆ¤æ–­
 	{
 		printf("%d\n", com(m, n));
 	}
