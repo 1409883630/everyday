@@ -1,4 +1,4 @@
-//递归求n的阶乘
+//递归求n的阶乘.
 #include<stdio.h>
 int ret=1;
 int add(int n)
