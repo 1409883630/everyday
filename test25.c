@@ -1,4 +1,4 @@
-//递归实现求第n个斐波那契数。
+//递归实现求第n个斐波那契数
 #include<stdio.h>
 int fib(int n)
 {
