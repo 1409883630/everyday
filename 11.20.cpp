@@ -1,18 +1,18 @@
-//¸Ã³ÌĞòÈÃÓÃ»§ÊäÈëÔ²µÄ°ë¾¶Radius£¬Êä³öÔ²µÄÖÜ³¤PerimeterºÍÃæ»ıArea
+//è¯¥ç¨‹åºè®©ç”¨æˆ·è¾“å…¥åœ†çš„åŠå¾„Radiusï¼Œè¾“å‡ºåœ†çš„å‘¨é•¿Perimeterå’Œé¢ç§¯
 //Ex1_02.CPP
 #include <iostream>
 #include <cmath>
 using namespace std;
-const double PI = 3.14159;	//¶¨ÒåÒ»¸ö³£Á¿PI  #define PI 3.14159
+const double PI = 3.14159;	//å®šä¹‰ä¸€ä¸ªå¸¸é‡PI  #define PI 3.14159
 int main()
 {
 	int radius;
 	double perimeter, area;
-	cout << "ÇëÊäÈë°ë¾¶: ";
+	cout << "è¯·è¾“å…¥åŠå¾„: ";
 	cin >> radius;
-	perimeter = 2 * PI * radius;					//ÖÜ³¤=2¦ĞR
-	area = PI * pow(radius, 2);					//Ãæ»ı=¦ĞR2
-	cout << "ÖÜ³¤ÊÇ : " << perimeter << endl;
-	cout << "Ãæ»ıÊÇ : " << area << endl;
+	perimeter = 2 * PI * radius;					//å‘¨é•¿=2Ï€R
+	area = PI * pow(radius, 2);					//é¢ç§¯=Ï€R2
+	cout << "å‘¨é•¿æ˜¯ : " << perimeter << endl;
+	cout << "é¢ç§¯æ˜¯ : " << area << endl;
 	return 0;
 }
