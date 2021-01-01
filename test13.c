@@ -1,11 +1,11 @@
-//ÊµÏÖÒ»¸öº¯Êý£¬ÅÐ¶ÏÒ»¸öÊýÊÇ²»ÊÇËØÊý¡£ÀûÓÃÉÏÃæÊµÏÖµÄº¯Êý´òÓ¡100µ½200Ö®¼äµÄËØÊý¡£
+//å®žçŽ°ä¸€ä¸ªå‡½æ•°ï¼Œåˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯ä¸æ˜¯ç´ æ•°ã€‚åˆ©ç”¨ä¸Šé¢å®žçŽ°çš„å‡½æ•°æ‰“å°100åˆ°200ä¹‹é—´çš„ç´ æ•°ï¼Œ
 #include<stdio.h>
-void  prime(int x)//¹¹½¨ÅÐ¶ÏËØÊýµÄº¯Êý
+void  prime(int x)//æž„å»ºåˆ¤æ–­ç´ æ•°çš„å‡½æ•°
 {
 	int i = 2;
 	for (i = 2; i < x; i++)
 	{
-		if (x%i == 0) //ÀûÓÃÄ£³ýÅÐ¶ÏËØÊý
+		if (x%i == 0) //åˆ©ç”¨æ¨¡é™¤åˆ¤æ–­ç´ æ•°
 		{
 			break;
 		}
@@ -19,7 +19,7 @@ void  prime(int x)//¹¹½¨ÅÐ¶ÏËØÊýµÄº¯Êý
 		printf("%d ", x);
 	}
 }
-int main()//Ö÷º¯Êýµ÷ÓÃËØÊýº¯Êý
+int main()//ä¸»å‡½æ•°è°ƒç”¨ç´ æ•°å‡½æ•°
 	{
 	int a = 100;
 	for (a = 100; a <= 200; a++)
