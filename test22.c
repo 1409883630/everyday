@@ -1,4 +1,4 @@
-//µİ¹éÊµÏÖstrlen strlenµÄº¬ÒåÊÇ£ºÇó×Ö·û´®ÖĞÓĞĞ§×Ö·ûµÄ³¤¶È£¬²»°üÀ¨\0¡£
+//é€’å½’å®ç°strlen strlençš„å«ä¹‰æ˜¯ï¼šæ±‚å­—ç¬¦ä¸²ä¸­æœ‰æ•ˆå­—ç¬¦çš„é•¿åº¦ï¼Œä¸åŒ…æ‹¬\0ï¼Œ
 #include<stdio.h>
 #include<string.h>
 int sstrlen(const char*str)
@@ -18,7 +18,7 @@ int main()
 	printf("%d\n", sstrlen(a));
 	return 0;
 }
-//·Çµİ¹éÊµÏÖstrlen  strlenµÄº¬ÒåÊÇ£ºÇó×Ö·û´®ÖĞÓĞĞ§×Ö·ûµÄ³¤¶È£¬²»°üÀ¨\0¡£
+//éé€’å½’å®ç°strlen  strlençš„å«ä¹‰æ˜¯ï¼šæ±‚å­—ç¬¦ä¸²ä¸­æœ‰æ•ˆå­—ç¬¦çš„é•¿åº¦ï¼Œä¸åŒ…æ‹¬\0ã€‚
 #include<stdio.h>
 #include<string.h>
 int count = 0;
