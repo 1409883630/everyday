@@ -1,4 +1,4 @@
-//±àĞ´Ò»¸öº¯Êı reverse_string(char * string)£¨µİ¹éÊµÏÖ£©½«²ÎÊı×Ö·û´®ÖĞµÄ×Ö·û·´ÏòÅÅÁĞ¡£²»ÄÜÊ¹ÓÃCº¯Êı¿âÖĞµÄ×Ö·û´®²Ù×÷º¯Êı
+//ç¼–å†™ä¸€ä¸ªå‡½æ•° reverse_string(char * string)ï¼ˆé€’å½’å®ç°ï¼‰å°†å‚æ•°å­—ç¬¦ä¸²ä¸­çš„å­—ç¬¦åå‘æ’åˆ—ã€‚
 #include<stdio.h>
 #include<string.h>
 void reverse_string(char * arr)
