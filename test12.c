@@ -1,20 +1,20 @@
-//ÊµÏÖº¯ÊıÅĞ¶ÏyearÊÇ²»ÊÇÈóÄê
+//å®ç°å‡½æ•°åˆ¤æ–­yearæ˜¯ä¸æ˜¯æ¶¦å¹´ã€‚
 #include<stdio.h>
-void leap(int x) //leapÊÇÅĞ¶ÏÈòÄêµÄº¯Êı
+void leap(int x) //leapæ˜¯åˆ¤æ–­é—°å¹´çš„å‡½æ•°
 {
 	if (x % 4 == 0 && x % 100 != 0 || x % 400 == 0)
 	{
-		printf("%dÊÇÈòÄê\n", x);
+		printf("%dæ˜¯é—°å¹´\n", x);
 	}
 	else
 	{
-		printf("%d²»ÊÇÈòÄê\n", x);
+		printf("%dä¸æ˜¯é—°å¹´\n", x);
 	}
 }
 int main()
 {
 	int a;
 	scanf("%d", &a);
-	leap(a); //µ÷ÓÃº¯Êı
+	leap(a); //è°ƒç”¨å‡½æ•°
 	return 0;
 }
