@@ -1,4 +1,4 @@
-//非递归求n的阶乘 .
+//非递归求n的阶乘
 #include<stdio.h>
 void add(int n)
 {
