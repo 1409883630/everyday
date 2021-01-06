@@ -1,4 +1,4 @@
-//求两个数二进制中不同位的个数.
+//求两个数二进制中不同位的个数
 #include <stdio.h>
 int com(int m, int n)
 {
