@@ -1,5 +1,5 @@
-//编写一个函数实现n的k次方，使用递实现。
-#include 。<stdio.h>
+//编写一个函数实现n的k次方，使用递实现
+#include <stdio.h>
 int sqrt(int n,int k)
 {
 	if (k ==  0)
