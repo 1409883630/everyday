@@ -1,4 +1,4 @@
-//递归实现1+2+..+n。
+//递归实现1+2+..+n
 #include<stdio.h>
 int add(int n)
 {
