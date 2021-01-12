@@ -1,4 +1,4 @@
-//实现一个对整形数组的冒泡排序
+//实现一个对整形数组的冒泡排序。
 #include<stdio.h>
 void b(int arr[], int size)
 {
