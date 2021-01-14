@@ -1,4 +1,4 @@
-//给定两个数，求这两个数的最大公约数。。
+//给定两个数，求这两个数的最大公约数。
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int main()
