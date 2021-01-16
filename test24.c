@@ -1,4 +1,4 @@
-//编写一个函数 reverse_string(char * string)（递归实现）将参数字符串中的字符反向排列。
+//编写一个函数 reverse_string(char * string)（递归实现）将参数字符串中的字符反向排列
 #include<stdio.h>
 #include<string.h>
 void reverse_string(char * arr)
