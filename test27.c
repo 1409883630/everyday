@@ -1,5 +1,5 @@
-//实现一个对整形数组的冒泡排序
-#include<stdio.h>
+//实现一个对整形形状的冒泡排序。
+#include <stdio.h>
 void b(int arr[], int size)
 {
 	for (int i = 0; i < size - 1; i++)
