@@ -1,4 +1,4 @@
-//写代码将三个数按从大到小输出
+//写代码将三个数按从大到小输出...
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 int main()
