@@ -1,4 +1,4 @@
-//实现函数判断year是不是润年。
+//实现函数判断year是不是润年
 #include<stdio.h>
 void leap(int x) //leap是判断闰年的函数
 {
