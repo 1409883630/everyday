@@ -1,4 +1,4 @@
-//该程序让用户输入圆的半径Radius，输出圆的周长Perimeter和面积
+//该程序让用户输入圆的半径Radius，输出圆的周长Perimeter和面积/
 //Ex1_02.CPP
 #include <iostream>
 #include <cmath>
