@@ -1,5 +1,5 @@
 package com.company;
-//写一个递归方法，输入一个非负整数，返回组成它的数字之和
+//写一个递归方法，输入一个非负整数，返回组成它的数字之和。
 
 import java.util.Scanner;
 
