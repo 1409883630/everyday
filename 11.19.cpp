@@ -1,4 +1,4 @@
-// 比较两个数大小，输出大数，函数形式
+// 比较两个数大小，输出大数，函数形式。。
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int compare(int x, int y)
