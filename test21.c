@@ -1,4 +1,4 @@
-//计算一个数的每位之和（递归）。
+//计算一个数的每位之和（递归）
 #include<stdio.h>
 int  DigitSum(int n)
 {
