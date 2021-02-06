@@ -1,4 +1,4 @@
-//12*12乘法表（n*n)。
+//12*12乘法表（n*n)
 #include<stdio.h>
 void add(int n)//构造一个函数
 {
