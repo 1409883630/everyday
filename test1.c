@@ -1,4 +1,4 @@
-//打印1 - 100之间所有3的倍数的数字.
+//打印1 - 100之间所有3的倍数的数字
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int main()
