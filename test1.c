@@ -1,5 +1,5 @@
-//打印1-100之间所有3的倍数的数字
-＃定义_CRT_SECURE_NO_WARNINGS  1
+//打印1-100之间所有3的倍数的数字。
+＃定义_CRT_SECURE_NO_WARNINGS   1
 #include<stdio.h>
 int main()
 {
