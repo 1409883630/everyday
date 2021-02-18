@@ -1,5 +1,5 @@
-//递归实现求第n个斐波那契
-#include<stdio.h>
+//递归实现求第n个斐波那契。
+#include <stdio.h>
 int fib(int n)
 {
 	if (n == 0)
