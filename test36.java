@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//求斐波那契数列的第n项。(迭代实现)
 public class Test{
 public static void main(String[] args) {
 Scanner sc=new Scanner(System.in);
