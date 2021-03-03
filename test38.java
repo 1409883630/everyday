@@ -1,5 +1,5 @@
 public class Main {
- /./ 有一组数据，只有一个数字是出现一次，其他是两次，.
+ /./ 一组数据，只有一个数字是出现一次，其他是两次，
     public static void main(String[] args) {
         int arr[]={1,1,2,2,3,4,4,5,5};
          ss(arr);
