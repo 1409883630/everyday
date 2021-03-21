@@ -1,5 +1,5 @@
 
-//  调整数组顺序使得奇数位于偶数之前。调整之后，不关心大小顺序
+//  调整数组顺序使得奇数位于偶数之前。调整之后，不关心大小顺序。
 import java.lang.String ;
  public class Main {
         public static void main(String[] args) {
