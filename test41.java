@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-//给你一个整数数组 arr，请你判断数组中是否存在连续三个元素都是奇数的情况。
+//给你一个整数数组 arr，请你判断数组中是否存在连续三个元素都是奇数的情况
 public class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
         //int是基本类型，不能用到泛型中，所以使用int对应的包装类类型Integer替代
