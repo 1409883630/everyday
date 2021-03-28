@@ -1,4 +1,4 @@
-//你好。，世界
+//你好
 #include <stdio.h>
 int main()
 {
