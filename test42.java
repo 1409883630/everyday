@@ -1,19 +1,19 @@
-//¶ş²æÊ÷µİ¹éÊµÏÖÇ°ÖĞºóĞòµÄ±éÀú
-public class TreeTraversal {
-    // preorder traversalÇ°Ğò
+//äºŒå‰æ ‘é€’å½’å®ç°å‰ä¸­ååºçš„éå†ã€‚
+å…¬å…± ç±» TreeTraversal {
+    // preorder traversalå‰åº
     public static void preorder(TreeNode root) {
         if (root == null) {
-            // ¸ù½áµã²»´æÔÚ -> ÊÇÒ»¿Ã¿ÕÊ÷
-            // ¶ÔÓÚ¿ÕÊ÷µÄÇ°Ğò±éÀú£¬Ê²Ã´¶¼²»×ö
+            // æ ¹ç»“ç‚¹ä¸å­˜åœ¨ -> æ˜¯ä¸€æ£µç©ºæ ‘
+            // å¯¹äºç©ºæ ‘çš„å‰åºéå†ï¼Œä»€ä¹ˆéƒ½ä¸åš
             return;
         }
 
         System.out.printf("%c ", root.val);
-        preorder(root.left);    // root.left ³ĞÔØ×ó×ÓÊ÷µÄº¬Òå
+        preorder(root.left);    // root.left æ‰¿è½½å·¦å­æ ‘çš„å«ä¹‰
         preorder(root.right);
     }
 
-    // inorder traversalÖĞĞò
+    // inorder traversalä¸­åº
     public static void inorder(TreeNode root) {
         if (root == null) {
             return;
@@ -24,7 +24,7 @@ public class TreeTraversal {
         inorder(root.right);
     }
 
-    // postorder traversalºóĞò
+    // postorder traversalååº
     public static void postorder(TreeNode root) {
         if (root == null) {
             return;
@@ -36,14 +36,14 @@ public class TreeTraversal {
     }
     public static void main(String[] args) {
         TreeNode root = BuildTree.buildTree1();
-        System.out.print("Ç°Ğò: ");
+        System.out.print("å‰åº: ");
         preorder(root);
         System.out.println();
-        System.out.print("ÖĞĞò: ");
+        System.out.print("ä¸­åº: ");
         inorder(root);
         System.out.println();
 
-        System.out.print("ºóĞò: ");
+        System.out.print("ååº: ");
         postorder(root);
         System.out.println();
     }
