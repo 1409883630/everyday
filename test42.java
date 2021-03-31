@@ -1,4 +1,4 @@
-//二叉树递归实现前中后序的遍历
+//二叉树递归实现前中后序的遍历.
 公共 类 TreeTraversal {
     // preorder traversal前序
     public static void preorder(TreeNode root) {
