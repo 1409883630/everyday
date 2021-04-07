@@ -1,4 +1,4 @@
-//100~200之间的素数。
+//100~200之间的素数
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int main()
