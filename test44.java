@@ -1,4 +1,4 @@
-//链表插入一个数
+//閾捐〃鎻掑叆涓�涓暟
 public static void main(String[] args) {
         Node n1 = new Node();
         Node n3 = new Node();
