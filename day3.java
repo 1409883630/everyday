@@ -1,4 +1,4 @@
-//²éÕÒ×é³ÉÒ»¸öÅ¼Êý×î½Ó½üµÄÁ½¸öËØÊý
+//æŸ¥æ‰¾ç»„æˆä¸€ä¸ªå¶æ•°æœ€æŽ¥è¿‘çš„ä¸¤ä¸ªç´ æ•°ã€‚
 
 import java.util.*;
 public class Main{
@@ -6,7 +6,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             int num = sc.nextInt();
-            int n1 = 0, n2 = 0;// ¼ÇÂ¼×î½Ó½üËØÊý¶Ô
+            int n1 = 0, n2 = 0;// è®°å½•æœ€æŽ¥è¿‘ç´ æ•°å¯¹
             for (int i = num / 2; i > 2; i--) {
                 if (fun(i)) {
                     if (fun(num - i)) {
