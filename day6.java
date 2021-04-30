@@ -1,4 +1,4 @@
-  /完全数计算。
+  //完全数计算。
  导入 java。实用程序。* ;
 
 public class Test {
