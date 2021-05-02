@@ -1,4 +1,4 @@
-//¸ø¶¨Ò»¸öÁ´±í£¬ÅĞ¶ÏÁ´±íÖĞÊÇ·ñÓĞ»·
+//ç»™å®šä¸€ä¸ªé“¾è¡¨ï¼Œåˆ¤æ–­é“¾è¡¨ä¸­æ˜¯å¦æœ‰ç¯ã€‚
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
