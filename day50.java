@@ -1,4 +1,4 @@
- //数组中出现次数超过一半的数。
+ /数组中出现次数超过一半的数。
    
     public static int MoreThanHalfNum_Solution(int[] array) {
         if(array.length==0){
