@@ -1,4 +1,4 @@
- //Êı×éÖĞ³öÏÖ´ÎÊı³¬¹ıÒ»°ëµÄÊı
+ //æ•°ç»„ä¸­å‡ºç°æ¬¡æ•°è¶…è¿‡ä¸€åŠçš„æ•°ã€‚
    
     public static int MoreThanHalfNum_Solution(int[] array) {
         if(array.length==0){
@@ -6,7 +6,7 @@
         }
         for (int i = 0; i < array.length; i++) {
             int n = array.length;
-            int count = 0;//Í¨¹ıÅĞ¶Ï³öÏÖ´ÎÊıÀ´½â¾ö
+            int count = 0;//é€šè¿‡åˆ¤æ–­å‡ºç°æ¬¡æ•°æ¥è§£å†³
             for (int j = 0; j < array.length; j++) {
                 if (array[i] == array[j]) {
                     count++;
