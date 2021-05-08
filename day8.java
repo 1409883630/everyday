@@ -1,4 +1,4 @@
-//统计每个月兔子的总数
+//缁熻姣忎釜鏈堝厰瀛愮殑鎬绘暟
 import java.util.*;
 public class Test {
 public static void main(String[] args) {
