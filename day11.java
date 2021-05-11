@@ -1,5 +1,5 @@
-//反转字符串
-导入 java。uitl。* ;
+//反转字符串。
+引入 java。uitl。* ;
 public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
