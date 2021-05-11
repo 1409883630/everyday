@@ -1,12 +1,12 @@
-//·´×ª×Ö·û´®
-import java.uitl.*;
+//åè½¬å­—ç¬¦ä¸²
+å¯¼å…¥ javaã€‚uitlã€‚* ;
 public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
             String s = sc.next();
             System.out.println(ss(s));
     }
-//StringBufferÖĞµÄreverse·½·¨¡£
+//StringBufferÃ–ÃÂµÃ„reverseÂ·Â½Â·Â¨Â¡Â£
     public static String ss(String s) {
         StringBuffer a = new StringBuffer(s);
         String b = a.reverse().toString();
