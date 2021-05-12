@@ -1,5 +1,5 @@
 //求最小公倍数
-//正整数A和正整数B的最小公倍数是指能被A和B整除的最小的正整数值
+//正整数A和正整数B的最小公倍数是指能被A和B整除的最小的正整数值.
 //设计一个算法，求输入A和B的最小公倍数
 public class Main{
 public static void main(String[] args) {
