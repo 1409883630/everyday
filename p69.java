@@ -1,4 +1,4 @@
-//x的平方根
+//x鐨勫钩鏂规牴
 
 class Solution {
     public int mySqrt(int x) {
