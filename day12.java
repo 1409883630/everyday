@@ -1,4 +1,4 @@
-//Ğ¡Ò×µÄÉı¼¶Ö®Â·
+//å°æ˜“çš„å‡çº§ä¹‹è·¯ã€‚
 import java.util.*;
 public class Test {
     public static void main(String[] args){
@@ -7,7 +7,7 @@ public class Test {
             int a=sc.nextInt();
             int b=sc.nextInt();
             int c=0;
-            //Ğ¡¹ÖÓĞa¸ö
+            //å°æ€ªæœ‰aä¸ª
             for(int i=1;i<=a;i++){
                 c=sc.nextInt();
                 b=ss(b,c);
@@ -15,7 +15,7 @@ public class Test {
             System.out.println(b);
         }
     }
-    //Ğ¡Ò×ºÍ¹ÖÎïÕ½¶··½·¨
+    //å°æ˜“å’Œæ€ªç‰©æˆ˜æ–—æ–¹æ³•
     public static int ss(int a,int b){
         if(a>=b){
             a=a+b;
@@ -24,7 +24,7 @@ public class Test {
         }
         return a;
     }
-    //×î´ó¹«Ô¼Êı·½·¨
+    //æœ€å¤§å…¬çº¦æ•°æ–¹æ³•
     public static int aa(int a,int b){
        while(b!=0){
            int k=a%b;
