@@ -1,11 +1,11 @@
 
 
- //²»ÓÃ¼Ó¼õ³Ë³ı×ö¼Ó·¨
+ //ä¸ç”¨åŠ å‡ä¹˜é™¤åšåŠ æ³•ã€‚
  
  import java.util.*;
  public class Test {
     public int Add(int num1,int num2) {
-        //°´Î»Óë»òµÄ·½·¨
+        //æŒ‰ä½ä¸æˆ–çš„æ–¹æ³•
         while(num2!=0){
             int swap=num1^num2;
             num2=(num1&num2)<<1;
