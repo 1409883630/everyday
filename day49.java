@@ -1,9 +1,9 @@
-// »®·ÖÅÅÐò×ÓÐòÁÐ
-    //Å£Å£¶¨ÒåÅÅÐò×ÓÐòÁÐÎªÒ»¸öÊý×éÖÐÒ»¶ÎÁ¬ÐøµÄ×ÓÐòÁÐ,²¢ÇÒÕâ¶Î×ÓÐòÁÐÊÇ·ÇµÝÔö»òÕß·ÇµÝ¼õÅÅÐòµÄ¡£
-    // Å£Å£ÓÐÒ»¸ö³¤¶ÈÎªnµÄÕûÊýÊý×éA,ËûÏÖÔÚÓÐÒ»¸öÈÎÎñÊÇ°ÑÊý×éA·ÖÎªÈô¸É¶ÎÅÅÐò×ÓÐòÁÐ,
-    // Å£Å£ÏëÖªµÀËû×îÉÙ¿ÉÒÔ°ÑÕâ¸öÊý×é·ÖÎª¼¸¶ÎÅÅÐò×ÓÐòÁÐ.
-    //ÈçÑùÀýËùÊ¾,Å£Å£¿ÉÒÔ°ÑÊý×éA»®·ÖÎª[1,2,3]ºÍ[2,2,1]Á½¸öÅÅÐò×ÓÐòÁÐ,
-    // ÖÁÉÙÐèÒª»®·ÖÎª2¸öÅÅÐò×ÓÐòÁÐ,ËùÒÔÊä³ö2
+// åˆ’åˆ†æŽ’åºå­åºåˆ—.
+    //ç‰›ç‰›å®šä¹‰æŽ’åºå­åºåˆ—ä¸ºä¸€ä¸ªæ•°ç»„ä¸­ä¸€æ®µè¿žç»­çš„å­åºåˆ—,å¹¶ä¸”è¿™æ®µå­åºåˆ—æ˜¯éžé€’å¢žæˆ–è€…éžé€’å‡æŽ’åºçš„ã€‚
+    // ç‰›ç‰›æœ‰ä¸€ä¸ªé•¿åº¦ä¸ºnçš„æ•´æ•°æ•°ç»„A,ä»–çŽ°åœ¨æœ‰ä¸€ä¸ªä»»åŠ¡æ˜¯æŠŠæ•°ç»„Aåˆ†ä¸ºè‹¥å¹²æ®µæŽ’åºå­åºåˆ—,
+    // ç‰›ç‰›æƒ³çŸ¥é“ä»–æœ€å°‘å¯ä»¥æŠŠè¿™ä¸ªæ•°ç»„åˆ†ä¸ºå‡ æ®µæŽ’åºå­åºåˆ—.
+    //å¦‚æ ·ä¾‹æ‰€ç¤º,ç‰›ç‰›å¯ä»¥æŠŠæ•°ç»„Aåˆ’åˆ†ä¸º[1,2,3]å’Œ[2,2,1]ä¸¤ä¸ªæŽ’åºå­åºåˆ—,
+    // è‡³å°‘éœ€è¦åˆ’åˆ†ä¸º2ä¸ªæŽ’åºå­åºåˆ—,æ‰€ä»¥è¾“å‡º2
 	 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
@@ -13,25 +13,25 @@
             for (int i = 0; i < n; i++) {
                 nums[i] = sc.nextInt();
             }
-            // ÓÃÒ»¸ö±êÖ¾À´Çø·Ö
+            // ç”¨ä¸€ä¸ªæ ‡å¿—æ¥åŒºåˆ†
             int flag = 0;
-            int count = 1;// Í³¼ÆÄÜ¹»»®·ÖµÄÊý×éµÄ¸öÊý
+            int count = 1;// ç»Ÿè®¡èƒ½å¤Ÿåˆ’åˆ†çš„æ•°ç»„çš„ä¸ªæ•°
             for (int i = 1; i < n; i++) {
-                if (nums[i] > nums[i - 1]) {// µÝÔöÇé¿ö£ºflag==1±íÊ¾µÝÔö£¬²»×öÈÎºÎ¶¯×÷
+                if (nums[i] > nums[i - 1]) {// é€’å¢žæƒ…å†µï¼šflag==1è¡¨ç¤ºé€’å¢žï¼Œä¸åšä»»ä½•åŠ¨ä½œ
                     if (flag == 0) {
                         flag = 1;
                     }
 
-                    if (flag == -1) {// ÓÉµÝ¼õ±äµÝÔö£¬count¼Ó1
+                    if (flag == -1) {// ç”±é€’å‡å˜é€’å¢žï¼ŒcountåŠ 1
                         flag = 0;
                         count++;
                     }
-                } else if (nums[i] < nums[i - 1]) {// µÝ¼õÇé¿ö£ºflag==-1£¬±íÊ¾µÝ¼õ£¬²»×öÈÎºÎ¶¯×÷
+                } else if (nums[i] < nums[i - 1]) {// é€’å‡æƒ…å†µï¼šflag==-1ï¼Œè¡¨ç¤ºé€’å‡ï¼Œä¸åšä»»ä½•åŠ¨ä½œ
                     if (flag == 0) {
                         flag = -1;
                     }
 
-                    if (flag == 1) {// ´ËÊ±ÓÐµÝÔö±äµÝ¼õ£¬ÐèÒªcount¼Ó1
+                    if (flag == 1) {// æ­¤æ—¶æœ‰é€’å¢žå˜é€’å‡ï¼Œéœ€è¦countåŠ 1
                         flag = 0;
                         count++;
                     }
