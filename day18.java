@@ -1,7 +1,6 @@
-//最难的问题
-import java.util.*;
-public class Test {
-    public static void main(String[]args){
+//因子的个数
+公开 课 测试{
+    公共 静态 void 主（String [] args）{
         Scanner sc=new Scanner(System.in);
         while(sc.hasNextInt()){
             int n=sc.nextInt();
