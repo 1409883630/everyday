@@ -1,4 +1,4 @@
-//Äê»á³é½±
+//å¹´ä¼šæŠ½å¥–
 
 import java.util.*;
 public class Main{
@@ -22,7 +22,7 @@ public class Main{
         } else if (n == 2) {
             return 1;
         }
-        //´íÅÅ
+        //Â´Ã­Ã…Ã…
             return (n - 1) * (ss(n - 1) + ss(n - 2));
     }
     public static double aa(int n) {
