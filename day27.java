@@ -1,6 +1,5 @@
- //Ģ����
- 
- import java.util.*;
+//蘑菇阵
+ 导入 java。实用程序。* ;
  public class Main{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
