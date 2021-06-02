@@ -1,4 +1,4 @@
-//最长公共子序列
+//鏈�闀垮叕鍏卞瓙搴忓垪
 import java.util.*;
 public class Main{
    public static void main(String[]args){
