@@ -1,4 +1,4 @@
-//ĞÒÔË²Â²Â²Â£ºÓÎÏ·Ëæ»ú¸ø³öÒ»¸ö0~99£¨°üÀ¨0ºÍ99£©µÄÊı×Ö£¬È»ºóÈÃÄã²ÂÊÇÊ²Ã´Êı×Ö
+//å¹¸è¿çŒœçŒœçŒœï¼šæ¸¸æˆéšæœºç»™å‡ºä¸€ä¸ª0~99ï¼ˆåŒ…æ‹¬0å’Œ99ï¼‰çš„æ•°å­—ï¼Œç„¶åè®©ä½ çŒœæ˜¯ä»€ä¹ˆæ•°å­—ã€‚
 
 import java.util.Scanner;
 public class Demo08 {
@@ -6,14 +6,14 @@ public class Demo08 {
 		Scanner sc=new Scanner(System.in);
 		int r=(int)(Math.random()*100);
 		for(int count=1;count<=20;count++) {
-			System.out.println("ÇëÊäÈëÄú²ÂµÄÊı×Ö£º");
+			System.out.println("è¯·è¾“å…¥æ‚¨çŒœçš„æ•°å­—ï¼š");
 			int sum=sc.nextInt();
 			if(sum>r) {
-				System.out.println("²Â´óÁË£¡");
+				System.out.println("çŒœå¤§äº†ï¼");
 			}else if(sum<r) {
-				System.out.println("²ÂĞ¡ÁË£¡");
+				System.out.println("çŒœå°äº†ï¼");
 			}else {
-				System.out.println("²Â¶ÔÁË£¡");
+				System.out.println("çŒœå¯¹äº†ï¼");
 			}
 		}
 	}
