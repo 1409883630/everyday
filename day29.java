@@ -1,5 +1,4 @@
-
- //·¢ÓÊ¼ş
+//å‘é‚®ä»¶
  
 import java.util.*;
  public class Main{
