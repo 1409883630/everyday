@@ -1,4 +1,4 @@
-//分解因数
+//鍒嗚В鍥犳暟
 import java.util.*;
 public class Main{
     public static void main(String[]args){
