@@ -1,4 +1,4 @@
-//小易的升级之路。
+//小易的升级之路
 import java.util.*;
 public class Test {
     public static void main(String[] args){
