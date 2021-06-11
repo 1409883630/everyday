@@ -1,4 +1,4 @@
-//ÊµÏÖ·½·¨ contains, ÄÜ¹»ÅĞ¶¨×Ö·û´®ÖĞÊÇ·ñ°üº¬×Ó´®
+//å®ç°æ–¹æ³• contains, èƒ½å¤Ÿåˆ¤å®šå­—ç¬¦ä¸²ä¸­æ˜¯å¦åŒ…å«å­ä¸²ã€‚
 public class contains {
     public static void main(String[] args) {
         String str = "helloword";
