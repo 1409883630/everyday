@@ -1,4 +1,4 @@
-//ºÏ³ªÍÅ
+//åˆå”±å›¢
 import java.util.*;
 public class Main{
 
