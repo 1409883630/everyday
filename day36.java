@@ -1,23 +1,23 @@
-//ÊäÈëÄê·İºÍÔÂ·İÅĞ¶Ï¸ÃÔÂÓĞ¶àÉÙÌì
+//è¾“å…¥å¹´ä»½å’Œæœˆä»½åˆ¤æ–­è¯¥æœˆæœ‰å¤šå°‘å¤©ã€‚
 
 import java.util.Scanner;
   public class Demo08 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÊäÈëÄê·İºÍÔÂ·İ£º");
+		System.out.println("è¾“å…¥å¹´ä»½å’Œæœˆä»½ï¼š");
        int year=sc.nextInt();
        int mon=sc.nextInt();
        if(mon==1||mon==3||mon==5||mon==7||mon==8||mon==10||mon==12)
        {
-    	   System.out.println("31Ìì");
+    	   System.out.println("31å¤©");
        }else if(mon==4||mon==6||mon==9||mon==11)
-       { System.out.println("30Ìì");
+       { System.out.println("30å¤©");
         }
        else
        {if(year%4==0&&year%100!=0||year%400==0)
-       {System.out.println("29Ìì");
+       {System.out.println("29å¤©");
        }else {
-    	   System.out.println("28Ìì");
+    	   System.out.println("28å¤©");
     	   sc.close();
        }
        }
