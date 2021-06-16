@@ -1,11 +1,11 @@
 
-//ÆóÒµ·¢·Å½±½ğµÄÀûÈóÌá³É
+//ä¼ä¸šå‘æ”¾å¥–é‡‘çš„åˆ©æ¶¦ææˆ.
 
 import java.util.Scanner;
 public class Demo11 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÊäÈëµ±ÔÂÀûÈó£º");
+		System.out.println("è¾“å…¥å½“æœˆåˆ©æ¶¦ï¼š");
 		int lirun=sc.nextInt();
 		double sal=0;
 		if(lirun<=10) {
