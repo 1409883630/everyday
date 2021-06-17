@@ -1,17 +1,17 @@
 
-//ÓÃ»§ÊäÈëÈÎÒâºÁÃëÊı£¬¼ÆËã¹²¼¸Ìì¼¸Ê±¼¸·Ö¼¸Ãë¼¸ºÁÃë¡£ 
+//ç”¨æˆ·è¾“å…¥ä»»æ„æ¯«ç§’æ•°ï¼Œè®¡ç®—å…±å‡ å¤©å‡ æ—¶å‡ åˆ†å‡ ç§’å‡ æ¯«ç§’
 import java.util.Scanner;
 public class Dmeo02 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëºÁÃëÊı£º");
+		System.out.println("è¯·è¾“å…¥æ¯«ç§’æ•°ï¼š");
 		int ms=sc.nextInt();
 		int days=ms/(1000*60*60*24);
 		int hours=ms%(1000*60*60*24)/(1000*60*60);
 		int mins=ms%(1000*60*60)/(1000*60);
 		int sends=ms%(1000*60)/1000;
 		int mss=ms%1000;
-		System.out.println(days+"Ìì"+hours+"Ê±"+mins+"·Ö"+sends+"Ãë"+mss);
+		System.out.println(days+"å¤©"+hours+"æ—¶"+mins+"åˆ†"+sends+"ç§’"+mss);
 		sc.close();
 	}
 
