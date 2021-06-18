@@ -1,5 +1,5 @@
 
-//ÊµÏÖÒ»¸ö¿Î³ÌÃû³ÆºÍ¿Î³Ì´úºÅµÄ×ª»»Æ÷
+//å®ç°ä¸€ä¸ªè¯¾ç¨‹åç§°å’Œè¯¾ç¨‹ä»£å·çš„è½¬æ¢å™¨.
 
 import java.util.Scanner;
 public class Demo01 {
@@ -8,16 +8,16 @@ public class Demo01 {
 		int sum;
 		int a;
 		do {
-			System.out.println("ÊäÈë¿Î³Ì´úÂë£º");
+			System.out.println("è¾“å…¥è¯¾ç¨‹ä»£ç ï¼š");
 			sum=sc.nextInt();
 			switch(sum)
 			{
-			case 1:System.out.println("1ºÅÊ¹ÓÃJavaÓïÑÔÀí½â³ÌĞòÂß¼­");break;
-			case 2:System.out.println("2ºÅÊ¹ÓÃHTMLÓïÑÔ¿ª·¢ÉÌÒµÕ¾µã");break;
-			case 3:System.out.println("3ºÅÊ¹ÓÃSQL Server¹ÜÀíºÍ²éÑ¯Êı¾İ");break;
-			case 4:System.out.println("4ºÅÊ¹ÓÃC#¿ª·¢Êı¾İ¿âÓ¦ÓÃ³ÌĞò");break;
+			case 1:System.out.println("1å·ä½¿ç”¨Javaè¯­è¨€ç†è§£ç¨‹åºé€»è¾‘");break;
+			case 2:System.out.println("2å·ä½¿ç”¨HTMLè¯­è¨€å¼€å‘å•†ä¸šç«™ç‚¹");break;
+			case 3:System.out.println("3å·ä½¿ç”¨SQL Serverç®¡ç†å’ŒæŸ¥è¯¢æ•°æ®");break;
+			case 4:System.out.println("4å·ä½¿ç”¨C#å¼€å‘æ•°æ®åº“åº”ç”¨ç¨‹åº");break;
 			}
-			System.out.println("ÊÇ·ñ¼ÌĞø£¿0-ÍË³öÏµÍ³");
+			System.out.println("æ˜¯å¦ç»§ç»­ï¼Ÿ0-é€€å‡ºç³»ç»Ÿ");
 			a=sc.nextInt();
 		}while(a!=0);
 		sc.close();
