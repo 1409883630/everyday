@@ -1,5 +1,4 @@
-//ÇóÕûÊı1~100µÄÀÛ¼ÓÖµ£¬µ«ÒªÇóÌø¹ıËùÓĞ¸öÎ»Îª3µÄÊı¡££¨Ê¹ÓÃforÑ­»·ÊµÏÖ£©
-
+//æ±‚æ•´æ•°1~100çš„ç´¯åŠ å€¼ï¼Œä½†è¦æ±‚è·³è¿‡æ‰€æœ‰ä¸ªä½ä¸º3çš„æ•°
 import java.util.Scanner;
 public class Demo03 {
 	public static void main(String[] args) {
