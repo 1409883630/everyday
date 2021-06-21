@@ -1,10 +1,10 @@
 
-//ÊäÈëÒ»¸öÕıÕûÊı£¬½«¸ÃÊıµÄ¸÷Î»×óÓÒ·´×ªÊä³ö
+//è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°ï¼Œå°†è¯¥æ•°çš„å„ä½å·¦å³åï¼Œè½¬è¾“å‡º
 import java.util.Scanner;
 public class Demo05 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸öÕıÕûÊı£º");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°ï¼š");
 		int num=sc.nextInt();
 		int number=0;
 		while(number <=0){
