@@ -1,11 +1,11 @@
-//½£Ö¸ Offer 25. ºÏ²¢Á½¸öÅÅÐòµÄÁ´±í
-//ÊäÈëÁ½¸öµÝÔöÅÅÐòµÄÁ´±í£¬ºÏ²¢ÕâÁ½¸öÁ´±í²¢Ê¹ÐÂÁ´±íÖÐµÄ½ÚµãÈÔÈ»ÊÇµÝÔöÅÅÐòµÄ¡£
+//å‰‘æŒ‡ Offer 25. åˆå¹¶ä¸¤ä¸ªæŽ’åºçš„é“¾è¡¨ã€‚
+//è¾“å…¥ä¸¤ä¸ªé€’å¢žæŽ’åºçš„é“¾è¡¨ï¼Œåˆå¹¶è¿™ä¸¤ä¸ªé“¾è¡¨å¹¶ä½¿æ–°é“¾è¡¨ä¸­çš„èŠ‚ç‚¹ä»ç„¶æ˜¯é€’å¢žæŽ’åºçš„ã€‚
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-		//½¨Á¢Ò»¸öÐÂµÄÁ´±í£¬È»ºó½«Á½¸öÊý×éºÏ²¢µ½ÐÂÊý×éÖÐ
+		//å»ºç«‹ä¸€ä¸ªæ–°çš„é“¾è¡¨ï¼Œç„¶åŽå°†ä¸¤ä¸ªæ•°ç»„åˆå¹¶åˆ°æ–°æ•°ç»„ä¸­
             ListNode ss = new ListNode(0);
             ListNode cur = ss;
-			//ÏÞ¶¨Ìõ¼þ
+			//é™å®šæ¡ä»¶
             while(l1!=null && l2!=null){
                 if(l1.val<l2.val){
                     cur.next=l1;
@@ -17,7 +17,7 @@ class Solution {
                }
             cur=cur.next;
             }
-            //±È½Ïl1 ºÍl2£¬Èç¹ûÄ³¸ö²»Îª¿Õ£¬·µ»ØÖµ¸øcur.next;
+            //æ¯”è¾ƒl1 å’Œl2ï¼Œå¦‚æžœæŸä¸ªä¸ä¸ºç©ºï¼Œè¿”å›žå€¼ç»™cur.next;
             cur.next = l1 != null ? l1 : l2;
             return ss.next;
     }
