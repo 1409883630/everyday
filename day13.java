@@ -1,4 +1,4 @@
-//找出字符串中第一个只出现一次的字
+//找出字符串中第一个只出现一次的字。
 
 public static void ss(String str) {
         for (int i = 0; i < str.length(); i++) {
