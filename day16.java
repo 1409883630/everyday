@@ -1,6 +1,6 @@
 
 
- //不用加减乘除做加法。
+ //不用加减乘除做加法
  
  import java.util.*;
  public class Test {
