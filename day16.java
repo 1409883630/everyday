@@ -1,7 +1,5 @@
 
-
  //不用加减乘除做加法
- 
  import java.util.*;
  public class Test {
     public int Add(int num1,int num2) {
