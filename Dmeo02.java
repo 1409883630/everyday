@@ -1,5 +1,5 @@
 
-//用户输入任意毫秒数，计算共几天几时几分几秒几毫秒
+//用户输入任意毫秒数，计算共几天几时几分几秒几毫秒.
 import java.util.Scanner;
 public class Dmeo02 {
 	public static void main(String[] args) {
