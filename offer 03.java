@@ -1,4 +1,4 @@
-//数组中重复的数字
+//鏁扮粍涓噸澶嶇殑鏁板瓧
 
 class Solution {
     public int findRepeatNumber(int[] nums) {
