@@ -1,4 +1,4 @@
-//Ğı×ªÊı×éµÄ×îĞ¡Êı×Ö
+//æ—‹è½¬æ•°ç»„çš„æœ€å°æ•°å­—
 class Solution {
     public int minArray(int[] numbers) {
 int low = 0;
