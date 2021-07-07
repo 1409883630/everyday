@@ -1,6 +1,6 @@
 
 
-//斐波那契凤尾、
+//斐波那契凤尾
 import java.util.*;
 
 public class Test {
