@@ -1,6 +1,6 @@
 //因子的个数
-公开 课 测试{
-    公共 静态 void 主（String [] args）{
+public class Main{
+    public void main（String [] args）{
         Scanner sc=new Scanner(System.in);
         while(sc.hasNextInt()){
             int n=sc.nextInt();
