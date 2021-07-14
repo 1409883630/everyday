@@ -1,4 +1,4 @@
-// 养兔子.
+// 养兔子
 import java.util.*;
 public class Main{
     public static void main(String[] args) {
