@@ -1,4 +1,4 @@
-//数据库连接池
+//数据库连接池。
 import javca.util.*;
 public class Main{
     public static void main(String[] args) {
