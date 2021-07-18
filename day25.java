@@ -1,4 +1,4 @@
-//数据库连接池
+//鏁版嵁搴撹繛鎺ユ睜
 import javca.util.*;
 public class Main{
     public static void main(String[] args) {
