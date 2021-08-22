@@ -1,20 +1,20 @@
-//NC3 Á´±íÖÐ»·µÄÈë¿Ú½áµã
-//¸øÒ»¸öÁ´±í£¬ÈôÆäÖÐ°üº¬»·£¬ÇëÕÒ³ö¸ÃÁ´±íµÄ»·µÄÈë¿Ú½áµã£¬·ñÔò£¬·µ»Ønull
-//ÊäÈëÃèÊö£ºÊäÈë·ÖÎª2¶Î£¬µÚÒ»¶ÎÊÇÈë»·Ç°µÄÁ´±í²¿·Ö£¬
-//µÚ¶þ¶ÎÊÇÁ´±í»·µÄ²¿·Ö£¬ºóÌ¨½«Õâ2¸ö»á×é×°³ÉÒ»¸öÓÐ»·»òÕßÎÞ»·µ¥Á´±í
-//·µ»ØÖµÃèÊö£º·µ»ØÁ´±íµÄ»·µÄÈë¿Ú½áµã¼´¿É¡£¶øÎÒÃÇºóÌ¨³ÌÐò»á´òÓ¡Õâ¸ö½Úµã
+//NC3 é“¾è¡¨ä¸­çŽ¯çš„å…¥å£ç»“ç‚¹
+//ç»™ä¸€ä¸ªé“¾è¡¨ï¼Œè‹¥å…¶ä¸­åŒ…å«çŽ¯ï¼Œè¯·æ‰¾å‡ºè¯¥é“¾è¡¨çš„çŽ¯çš„å…¥å£ç»“ç‚¹ï¼Œå¦åˆ™ï¼Œè¿”å›žnull
+//è¾“å…¥æè¿°ï¼šè¾“å…¥åˆ†ä¸º2æ®µï¼Œç¬¬ä¸€æ®µæ˜¯å…¥çŽ¯å‰çš„é“¾è¡¨éƒ¨åˆ†ï¼Œ
+//ç¬¬äºŒæ®µæ˜¯é“¾è¡¨çŽ¯çš„éƒ¨åˆ†ï¼ŒåŽå°å°†è¿™2ä¸ªä¼šç»„è£…æˆä¸€ä¸ªæœ‰çŽ¯æˆ–è€…æ— çŽ¯å•é“¾è¡¨
+//è¿”å›žå€¼æè¿°ï¼šè¿”å›žé“¾è¡¨çš„çŽ¯çš„å…¥å£ç»“ç‚¹å³å¯ã€‚è€Œæˆ‘ä»¬åŽå°ç¨‹åºä¼šæ‰“å°è¿™ä¸ªèŠ‚ç‚¹.
 import java.util.*;
 public class Solution {
 
     public ListNode EntryNodeOfLoop(ListNode pHead) {
-        // Ê¹ÓÃsetÀ´¼ÇÂ¼³öÏÖµÄ½áµã
+        // ä½¿ç”¨setæ¥è®°å½•å‡ºçŽ°çš„ç»“ç‚¹
         HashSet<ListNode> set = new HashSet<>();
         while(pHead != null){
-           // µ±setÖÐ°üº¬½áµã£¬ËµÃ÷µÚÒ»´Î³öÏÖÖØ¸´µÄ½áµã£¬¼´»·µÄÈë¿Ú½áµã
+           // å½“setä¸­åŒ…å«ç»“ç‚¹ï¼Œè¯´æ˜Žç¬¬ä¸€æ¬¡å‡ºçŽ°é‡å¤çš„ç»“ç‚¹ï¼Œå³çŽ¯çš„å…¥å£ç»“ç‚¹
             if(set.contains(pHead)){
                 return pHead;
             }
-            // setÖÐ¼ÓÈëÎ´ÖØ¸´µÄ½áµã
+            // setä¸­åŠ å…¥æœªé‡å¤çš„ç»“ç‚¹
             set.add(pHead);
             pHead = pHead.next;
         }
