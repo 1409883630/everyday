@@ -1,5 +1,5 @@
-//NC45 ÊµÏÖ¶ş²æÊ÷ÏÈĞò£¬ÖĞĞòºÍºóĞò±éÀú
-//·Ö±ğ°´ÕÕ¶ş²æÊ÷ÏÈĞò£¬ÖĞĞòºÍºóĞò´òÓ¡ËùÓĞµÄ½Úµã¡£
+//NC45 å®ç°äºŒå‰æ ‘å…ˆåºï¼Œä¸­åºå’Œååºéå†
+//åˆ†åˆ«æŒ‰ç…§äºŒå‰æ ‘å…ˆåºï¼Œä¸­åºå’Œååºæ‰“å°æ‰€æœ‰çš„èŠ‚ç‚¹ã€‚
 import java.util.*;
 
 /*
@@ -10,11 +10,7 @@ import java.util.*;
  * }
  */
 public class Solution {
-    /**
-     * 
-     * @param root TreeNodeÀà the root of binary tree
-     * @return intÕûĞÍ¶şÎ¬Êı×é
-     */
+   
     public int[][] threeOrders (TreeNode root) {
         // write code here
         List<Integer>list=new ArrayList<>();
