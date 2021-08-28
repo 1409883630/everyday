@@ -1,7 +1,6 @@
-//NC15 Çó¶ş²æÊ÷µÄ²ãĞò±éÀú
-//¸ø¶¨Ò»¸ö¶ş²æÊ÷£¬·µ»Ø¸Ã¶ş²æÊ÷²ãĞò±éÀúµÄ½á¹û£¬£¨´Ó×óµ½ÓÒ£¬Ò»²ãÒ»²ãµØ±éÀú£©
+//NC15 æ±‚äºŒå‰æ ‘çš„å±‚åºéå†
+//ç»™å®šä¸€ä¸ªäºŒå‰æ ‘ï¼Œè¿”å›è¯¥äºŒå‰æ ‘å±‚åºéå†çš„ç»“æœï¼Œï¼ˆä»å·¦åˆ°å³ï¼Œä¸€å±‚ä¸€å±‚åœ°éå†ï¼‰
 import java.util.*;
-
 /*
  * public class TreeNode {
  *   int val = 0;
@@ -13,8 +12,8 @@ import java.util.*;
 public class Solution {
     /**
      * 
-     * @param root TreeNodeÀà 
-     * @return intÕûĞÍArrayList<ArrayList<>>
+     * @param root TreeNodeç±» 
+     * @return intæ•´å‹ArrayList<ArrayList<>>
      */
     public ArrayList<ArrayList<Integer>> levelOrder (TreeNode root) {
         // write code here
