@@ -1,22 +1,22 @@
-//NC88 Ñ°ÕÒµÚK´ó
-//ÓĞÒ»¸öÕûÊıÊı×é£¬ÇëÄã¸ù¾İ¿ìËÙÅÅĞòµÄË¼Â·£¬ÕÒ³öÊı×éÖĞµÚ ´óµÄÊı¡£
+//NC88 å¯»æ‰¾ç¬¬Kå¤§
+//æœ‰ä¸€ä¸ªæ•´æ•°æ•°ç»„ï¼Œè¯·ä½ æ ¹æ®å¿«é€Ÿæ’åºçš„æ€è·¯ï¼Œæ‰¾å‡ºæ•°ç»„ä¸­ç¬¬ å¤§çš„æ•°
 import java.util.*;
 
 public class Solution {
     public int findKth(int[] a, int n, int K) {
         // write code here
-        //¿ìËÙÑ¡ÔñËã·¨
+        //å¿«é€Ÿé€‰æ‹©ç®—æ³•
         quickSort(a, 0, n - 1, K);
         return a[K - 1];
     }
-    //´Ó´óµ½Ğ¡ÅÅĞò
+    //ä»å¤§åˆ°å°æ’åº
     private void quickSort(int[] arr, int left, int right, int k){
         if(left >= right){
             return;
         }
         int i = left, j = right;
         int tem = arr[left];
-        //¿ìÅÅºËĞÄ²¿·Ö´úÂë
+        //å¿«æ’æ ¸å¿ƒéƒ¨åˆ†ä»£ç 
         while(i < j){
             while(i < j && arr[j] <= tem){
                 j--;
@@ -27,7 +27,7 @@ public class Solution {
             swap(arr, i, j);
         }
         swap(arr, left, j);
-        //ÉáÆúÅĞ¶Ï
+        //èˆå¼ƒåˆ¤æ–­
         if(k - 1 > j){
             quickSort(arr, j + 1, right, k);
         }else if(k - 1 < j){
