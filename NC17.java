@@ -1,6 +1,6 @@
-//NC17 ×î³¤»ØÎÄ×Ó´®
-//¶ÔÓÚÒ»¸ö×Ö·û´®£¬ÇëÉè¼ÆÒ»¸ö¸ßÐ§Ëã·¨£¬¼ÆËãÆäÖÐ×î³¤»ØÎÄ×Ó´®µÄ³¤¶È¡£
-//¸ø¶¨×Ö·û´®AÒÔ¼°ËüµÄ³¤¶Èn£¬Çë·µ»Ø×î³¤»ØÎÄ×Ó´®µÄ³¤¶È¡£
+//NC17 æœ€é•¿å›žæ–‡å­ä¸²
+//å¯¹äºŽä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œè¯·è®¾è®¡ä¸€ä¸ªé«˜æ•ˆç®—æ³•ï¼Œè®¡ç®—å…¶ä¸­æœ€é•¿å›žæ–‡å­ä¸²çš„é•¿åº¦ã€‚
+//ç»™å®šå­—ç¬¦ä¸²Aä»¥åŠå®ƒçš„é•¿åº¦nï¼Œè¯·è¿”å›žæœ€é•¿å›žæ–‡å­ä¸²çš„é•¿åº¦
 import java.util.*;
 public class Solution {
     public int getLongestPalindrome(String A, int n) {
