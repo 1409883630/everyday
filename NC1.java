@@ -1,14 +1,14 @@
-//NC1 ´óÊý¼Ó·¨
-//ÒÔ×Ö·û´®µÄÐÎÊ½¶ÁÈëÁ½¸öÊý×Ö£¬±àÐ´Ò»¸öº¯Êý¼ÆËãËüÃÇµÄºÍ£¬ÒÔ×Ö·û´®ÐÎÊ½·µ»Ø¡£
-//£¨×Ö·û´®³¤¶È²»´óÓÚ100000£¬±£Ö¤×Ö·û´®½öÓÉ'0'~'9'Õâ10ÖÖ×Ö·û×é³É£©
+//NC1 å¤§æ•°åŠ æ³•
+//ä»¥å­—ç¬¦ä¸²çš„å½¢å¼è¯»å…¥ä¸¤ä¸ªæ•°å­—ï¼Œç¼–å†™ä¸€ä¸ªå‡½æ•°è®¡ç®—å®ƒä»¬çš„å’Œï¼Œä»¥å­—ç¬¦ä¸²å½¢å¼è¿”å›ž
+//ï¼ˆå­—ç¬¦ä¸²é•¿åº¦ä¸å¤§äºŽ100000ï¼Œä¿è¯å­—ç¬¦ä¸²ä»…ç”±'0'~'9'è¿™10ç§å­—ç¬¦ç»„æˆï¼‰
 import java.util.*;
 public class Solution {
     /**
-     * ´úÂëÖÐµÄÀàÃû¡¢·½·¨Ãû¡¢²ÎÊýÃûÒÑ¾­Ö¸¶¨£¬ÇëÎðÐÞ¸Ä£¬Ö±½Ó·µ»Ø·½·¨¹æ¶¨µÄÖµ¼´¿É
-     * ¼ÆËãÁ½¸öÊýÖ®ºÍ
-     * @param s string×Ö·û´® ±íÊ¾µÚÒ»¸öÕûÊý
-     * @param t string×Ö·û´® ±íÊ¾µÚ¶þ¸öÕûÊý
-     * @return string×Ö·û´®
+     * ä»£ç ä¸­çš„ç±»åã€æ–¹æ³•åã€å‚æ•°åå·²ç»æŒ‡å®šï¼Œè¯·å‹¿ä¿®æ”¹ï¼Œç›´æŽ¥è¿”å›žæ–¹æ³•è§„å®šçš„å€¼å³å¯
+     * è®¡ç®—ä¸¤ä¸ªæ•°ä¹‹å’Œ
+     * @param s stringå­—ç¬¦ä¸² è¡¨ç¤ºç¬¬ä¸€ä¸ªæ•´æ•°
+     * @param t stringå­—ç¬¦ä¸² è¡¨ç¤ºç¬¬äºŒä¸ªæ•´æ•°
+     * @return stringå­—ç¬¦ä¸²
      */
     public String solve (String s, String t) {
         // write code here
