@@ -1,6 +1,6 @@
-//NC128 ½ÓÓêË®ÎÊÌâ
-//¸ø¶¨Ò»¸öÕûÐÎÊý×éarr£¬ÒÑÖªÆäÖÐËùÓÐµÄÖµ¶¼ÊÇ·Ç¸ºµÄ£¬
-//½«Õâ¸öÊý×é¿´×÷Ò»¸öÖù×Ó¸ß¶ÈÍ¼£¬¼ÆËã°´´ËÅÅÁÐµÄÖù×Ó£¬ÏÂÓêÖ®ºóÄÜ½Ó¶àÉÙÓêË®¡£
+//NC128 æŽ¥é›¨æ°´é—®é¢˜
+//ç»™å®šä¸€ä¸ªæ•´å½¢æ•°ç»„arrï¼Œå·²çŸ¥å…¶ä¸­æ‰€æœ‰çš„å€¼éƒ½æ˜¯éžè´Ÿçš„ï¼Œ
+//å°†è¿™ä¸ªæ•°ç»„çœ‹ä½œä¸€ä¸ªæŸ±å­é«˜åº¦å›¾ï¼Œè®¡ç®—æŒ‰æ­¤æŽ’åˆ—çš„æŸ±å­ï¼Œä¸‹é›¨ä¹‹åŽèƒ½æŽ¥å¤šå°‘é›¨æ°´
 import java.util.*;
 public class Solution {
     public long maxWater (int[] arr) {
