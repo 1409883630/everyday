@@ -1,13 +1,13 @@
-//NC92 ×î³¤¹«¹²×ÓĞòÁĞ-II
-//¸ø¶¨Á½¸ö×Ö·û´®str1ºÍstr2£¬Êä³öÁ½¸ö×Ö·û´®µÄ×î³¤¹«¹²×ÓĞòÁĞ¡£
-//Èç¹û×î³¤¹«¹²×ÓĞòÁĞÎª¿Õ£¬Ôò·µ»Ø"-1"¡£Ä¿Ç°¸ø³öµÄÊı¾İ£¬½ö½ö»á´æÔÚÒ»¸ö×î³¤µÄ¹«¹²×ÓĞòÁĞ
+//NC92 æœ€é•¿å…¬å…±å­åºåˆ—-II
+//ç»™å®šä¸¤ä¸ªå­—ç¬¦ä¸²str1å’Œstr2ï¼Œè¾“å‡ºä¸¤ä¸ªå­—ç¬¦ä¸²çš„æœ€é•¿å…¬å…±å­åºåˆ—ã€‚
+//å¦‚æœæœ€é•¿å…¬å…±å­åºåˆ—ä¸ºç©ºï¼Œåˆ™è¿”å›"-1"ã€‚ç›®å‰ç»™å‡ºçš„æ•°æ®ï¼Œä»…ä»…ä¼šå­˜åœ¨ä¸€ä¸ªæœ€é•¿çš„å…¬å…±å­åºåˆ—.
 import java.util.*;
 public class Solution {
     /**
      * longest common subsequence
-     * @param s1 string×Ö·û´® the string
-     * @param s2 string×Ö·û´® the string
-     * @return string×Ö·û´®
+     * @param s1 stringå­—ç¬¦ä¸² the string
+     * @param s2 stringå­—ç¬¦ä¸² the string
+     * @return stringå­—ç¬¦ä¸²
      */
     public String LCS (String s1, String s2) {
         // write code here
