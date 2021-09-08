@@ -1,12 +1,12 @@
-//NC32 求平方根
-//实现函数 int sqrt(int x).
-//计算并返回x的平方根（向下取整）
+//NC32 姹傚钩鏂规牴
+//瀹炵幇鍑芥暟 int sqrt(int x)
+//璁＄畻骞惰繑鍥瀤鐨勫钩鏂规牴锛堝悜涓嬪彇鏁达級
 import java.util.*;
 public class Solution {
     /**
      * 
-     * @param x int整型 
-     * @return int整型
+     * @param x int鏁村瀷 
+     * @return int鏁村瀷
      */
     public int sqrt (int x) {
         // write code here
