@@ -1,7 +1,6 @@
 //NC88 寻找第K大
 //有一个整数数组，请你根据快速排序的思路，找出数组中第 大的数
 import java.util.*;
-
 public class Solution {
     public int findKth(int[] a, int n, int K) {
         // write code here
