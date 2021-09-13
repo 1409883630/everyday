@@ -1,30 +1,24 @@
-//NC53 É¾³ıÁ´±íµÄµ¹ÊıµÚn¸ö½Úµã
-//¸ø¶¨Ò»¸öÁ´±í£¬É¾³ıÁ´±íµÄµ¹ÊıµÚ n ¸ö½Úµã²¢·µ»ØÁ´±íµÄÍ·Ö¸Õë
+//NC53 åˆ é™¤é“¾è¡¨çš„å€’æ•°ç¬¬nä¸ªèŠ‚ç‚¹
+//ç»™å®šä¸€ä¸ªé“¾è¡¨ï¼Œåˆ é™¤é“¾è¡¨çš„å€’æ•°ç¬¬ n ä¸ªèŠ‚ç‚¹å¹¶è¿”å›é“¾è¡¨çš„å¤´æŒ‡é’ˆ
 import java.util.*;
 public class Solution {
-    /**
-     * 
-     * @param head ListNodeÀà 
-     * @param n intÕûĞÍ 
-     * @return ListNodeÀà
-     */
     public ListNode removeNthFromEnd (ListNode head, int n) {
         // write code here
          if(head == null)
             return null;
         Stack<Integer> stack = new Stack<>();
-        //ÈëÕ»
+        //å…¥æ ˆ
         while(head != null) {
             stack.push(head.val);
             head = head.next;
         }
-        //³öÕ»
+        //å‡ºæ ˆ
         while(!stack.empty()) {
             n--;
             ListNode tmpNode = new ListNode(stack.pop());
-            //Ìø¹ıµÚn¸ö
+            //è·³è¿‡ç¬¬nä¸ª
             if(n != 0) {
-                //Ç°²å·¨
+                //å‰æ’æ³•
                 tmpNode.next = head;
                 head = tmpNode;
             }
