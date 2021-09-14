@@ -1,12 +1,6 @@
-//NC70 µ¥Á´±íµÄÅÅĞò
-//¸ø¶¨Ò»¸öÎŞĞòµ¥Á´±í£¬ÊµÏÖµ¥Á´±íµÄÅÅĞò(°´ÉıĞòÅÅĞò)
+//NC70 å•é“¾è¡¨çš„æ’åº
+//ç»™å®šä¸€ä¸ªæ— åºå•é“¾è¡¨ï¼Œå®ç°å•é“¾è¡¨çš„æ’åº(æŒ‰å‡åºæ’åº)
 import java.util.*;
-/*
- * public class ListNode {
- *   int val;
- *   ListNode next = null;
- * }
- */
 public class Solution {
     public ListNode sortInList (ListNode head) {
         // write code here
