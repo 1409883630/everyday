@@ -1,6 +1,6 @@
-//NC55 ×î³¤¹«¹²Ç°×º
-//¸øÄãÒ»¸ö³¤¶ÈÎª nn µÄ×Ö·û´®Êý×é strsstrs , 
-//±àÐ´Ò»¸öº¯ÊýÀ´²éÕÒ×Ö·û´®Êý×éÖÐµÄ×î³¤¹«¹²Ç°×º£¬·µ»ØÕâ¸ö¹«¹²Ç°×º
+//NC55 æœ€é•¿å…¬å…±å‰ç¼€
+//ç»™ä½ ä¸€ä¸ªé•¿åº¦ä¸º n çš„å­—ç¬¦ä¸²æ•°ç»„ str , 
+//ç¼–å†™ä¸€ä¸ªå‡½æ•°æ¥æŸ¥æ‰¾å­—ç¬¦ä¸²æ•°ç»„ä¸­çš„æœ€é•¿å…¬å…±å‰ç¼€ï¼Œè¿”å›žè¿™ä¸ªå…¬å…±å‰ç¼€
 import java.util.*;
 public class Solution {
     public String longestCommonPrefix (String[] strs) {
