@@ -1,17 +1,17 @@
-//NC96 ÅÐ¶ÏÒ»¸öÁ´±íÊÇ·ñÎª»ØÎÄ½á¹¹
-//¸ø¶¨Ò»¸öÁ´±í£¬ÇëÅÐ¶Ï¸ÃÁ´±íÊÇ·ñÎª»ØÎÄ½á¹¹¡£
+//NC96 åˆ¤æ–­ä¸€ä¸ªé“¾è¡¨æ˜¯å¦ä¸ºå›žæ–‡ç»“æž„
+//ç»™å®šä¸€ä¸ªé“¾è¡¨ï¼Œè¯·åˆ¤æ–­è¯¥é“¾è¡¨æ˜¯å¦ä¸ºå›žæ–‡ç»“æž„
 import java.util.*;
 public class Solution {
     public boolean isPail (ListNode head) {
         // write code here
         if(head == null || head.next == null) return true;
-        ListNode slow = head;//ÂýÖ¸Õë
-        ListNode fast = head;//¿ìÖ¸Õë
+        ListNode slow = head;//æ…¢æŒ‡é’ˆ
+        ListNode fast = head;//å¿«æŒ‡é’ˆ
         while(fast != null && fast.next != null){
             fast = fast.next.next;
             slow = slow.next;
         }
-        //ÕÒµ½ÖÐ¼ä½ÚµãºóÈÃfastÖ¸ÕëÖ¸Ïòslow->next;
+        //æ‰¾åˆ°ä¸­é—´èŠ‚ç‚¹åŽè®©fastæŒ‡é’ˆæŒ‡å‘slow->next;
         fast = slow.next;
         slow.next = null;
         ListNode newList = null;
@@ -23,7 +23,7 @@ public class Solution {
         }
         newList = slow;
         fast = head;
-        //ÅÐ¶Ï»ØÎÄ
+        //åˆ¤æ–­å›žæ–‡
         while (fast != null && newList != null) {
             if (fast.val != newList.val) {
                 return false;
