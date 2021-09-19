@@ -1,6 +1,6 @@
-//NC95 Êý×éÖÐµÄ×î³¤Á¬Ðø×ÓÐòÁÐ
-//¸ø¶¨ÎÞÐòÊý×éarr£¬·µ»ØÆäÖÐ×î³¤µÄÁ¬ÐøÐòÁÐµÄ³¤¶È
-//(ÒªÇóÖµÁ¬Ðø£¬Î»ÖÃ¿ÉÒÔ²»Á¬Ðø,ÀýÈç 3,4,5,6ÎªÁ¬ÐøµÄ×ÔÈ»Êý£©
+//NC95 æ•°ç»„ä¸­çš„æœ€é•¿è¿žç»­å­åºåˆ—
+//ç»™å®šæ— åºæ•°ç»„arrï¼Œè¿”å›žå…¶ä¸­æœ€é•¿çš„è¿žç»­åºåˆ—çš„é•¿åº¦
+//(è¦æ±‚å€¼è¿žç»­ï¼Œä½ç½®å¯ä»¥ä¸è¿žç»­,ä¾‹å¦‚ 3,4,5,6ä¸ºè¿žç»­çš„è‡ªç„¶æ•°ï¼‰ã€
 import java.util.*;
 public class Solution {
     public int MLS (int[] arr) {
