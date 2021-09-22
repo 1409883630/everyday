@@ -1,9 +1,9 @@
-//NC90 ����min������ջ
-//����ջ�����ݽṹ�����ڸ�������ʵ��һ���ܹ��õ�ջ��������СԪ�ص�min���������ҵ��� min������push���� �� pop���� ��ʱ�临�Ӷȶ��� O(1)
-//push(value):��valueѹ��ջ��
-//pop():����ջ��Ԫ��
-//top():��ȡջ��Ԫ��
-//min():��ȡջ����СԪ��
+//NC90 包含min函数的栈
+//定义栈的数据结构，请在该类型中实现一个能够得到栈中所含最小元素的min函数，并且调用 min函数、push函数 及 pop函数 的时间复杂度都是 O(1).
+//push(value):将value压入栈中
+//pop():弹出栈顶元素
+//top():获取栈顶元素
+//min():获取栈中最小元素
 import java.util.Stack;
 public class Solution {
     Stack<Integer> normal= new Stack<Integer>();
