@@ -1,4 +1,4 @@
-//NC65 ì³²¨ÄÇÆõÊıÁĞ
+//NC65 æ–æ³¢é‚£å¥‘æ•°åˆ—
 public class Solution {
     public int Fibonacci(int n){
         if(n==0) 
