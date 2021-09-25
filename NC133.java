@@ -1,6 +1,5 @@
-//NC133 Á´±íµÄÆæÅ¼ÖØÅÅ
-//¸ø¶¨Ò»¸öµ¥Á´±í£¬ÇëÉè¶¨Ò»¸öº¯Êý£¬½«Á´±íµÄÆæÊýÎ»½ÚµãºÍÅ¼ÊýÎ»½Úµã·Ö±ð·ÅÔÚÒ»Æð£¬ÖØÅÅºóÊä³ö¡£
-//×¢ÒâÊÇ½ÚµãµÄ±àºÅ¶ø·Ç½ÚµãµÄÊýÖµ¡£
+//NC133 é“¾è¡¨çš„å¥‡å¶é‡æŽ’
+//ç»™å®šä¸€ä¸ªå•é“¾è¡¨ï¼Œè¯·è®¾å®šä¸€ä¸ªå‡½æ•°ï¼Œå°†é“¾è¡¨çš„å¥‡æ•°ä½èŠ‚ç‚¹å’Œå¶æ•°ä½èŠ‚ç‚¹åˆ†åˆ«æ”¾åœ¨ä¸€èµ·ï¼Œé‡æŽ’åŽè¾“å‡ºã€‚
 import java.util.*;
 public class Solution {
     public ListNode oddEvenList (ListNode head) {
