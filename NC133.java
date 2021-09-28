@@ -1,5 +1,6 @@
 //NC133 链表的奇偶重排
 //给定一个单链表，请设定一个函数，将链表的奇数位节点和偶数位节点分别放在一起，重排后输出。
+//
 import java.util.*;
 public class Solution {
     public ListNode oddEvenList (ListNode head) {
