@@ -1,6 +1,6 @@
 //NC55 最长公共前缀
 //给你一个长度为 n 的字符串数组 str , 
-//编写一个函数来查找字符串数组中的最长公共前缀，返回这个公共前缀
+//编写一个函数来查找字符串数组中的最长公共前缀，返回这个公共前缀、
 import java.util.*;
 public class Solution {
     public String longestCommonPrefix (String[] strs) {
