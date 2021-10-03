@@ -15,7 +15,7 @@ public class Solution {
         }
         int i = left, j = right;
         int tem = arr[left];
-        //快排核心部分代码
+        //快排核心 部分代码
         while(i < j){
             while(i < j && arr[j] <= tem){
                 j--;
