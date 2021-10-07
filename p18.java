@@ -1,9 +1,10 @@
-//18. ËÄÊıÖ®ºÍ
-//¸øÄãÒ»¸öÓÉ n ¸öÕûÊı×é³ÉµÄÊı×é?nums £¬ºÍÒ»¸öÄ¿±êÖµ target ¡£
-//ÇëÄãÕÒ³ö²¢·µ»ØÂú×ãÏÂÊöÈ«²¿Ìõ¼şÇÒ²»ÖØ¸´µÄËÄÔª×é?[nums[a], nums[b], nums[c], nums[d]]
+//18. å››æ•°ä¹‹å’Œ
+//ç»™ä½ ä¸€ä¸ªç”± n ä¸ªæ•´æ•°ç»„æˆçš„æ•°ç»„?nums ï¼Œå’Œä¸€ä¸ªç›®æ ‡å€¼ target ã€‚
+//è¯·ä½ æ‰¾å‡ºå¹¶è¿”å›æ»¡è¶³ä¸‹è¿°å…¨éƒ¨æ¡ä»¶ä¸”ä¸é‡å¤çš„å››å…ƒç»„?[nums[a], nums[b], nums[c], nums[d]]
 //0 <= a, b, c, d < n
+//a,b,c,då„ä¸ç›¸åŒ
 //nums[a] + nums[b] + nums[c] + nums[d] == target
-//Äã¿ÉÒÔ°´ ÈÎÒâË³Ğò ·µ»Ø´ğ°¸ ¡£
+//ä½ å¯ä»¥æŒ‰ ä»»æ„é¡ºåº è¿”å›ç­”æ¡ˆ ã€‚
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> quadruplets = new ArrayList<List<Integer>>();
