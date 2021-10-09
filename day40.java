@@ -1,16 +1,16 @@
-//nµ½mµÄË®ÏÉ»¨Êý
-//ÊäÈën,m£¬Êä³öÖ®¼äµÄË®ÏÉ»¨Êý£¬Ã»ÓÐ¾ÍÊä³öno
+//nåˆ°mçš„æ°´ä»™èŠ±æ•°
+//è¾“å…¥n,mï¼Œè¾“å‡ºä¹‹é—´çš„æ°´ä»™èŠ±æ•°ï¼Œæ²¡æœ‰å°±è¾“å‡ºno
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextInt()) {
             int m = sc.nextInt();
             int n = sc.nextInt();
-            if(m>=100&&n<=1000) {
+            if(m>=100&&n<=999) {
                 for (int i = m; i <= n; i++) {
                     int a, b, c;
                     a = i / 100;
                     b = (i / 10) % 10;
-                    c = i % 100;
+                    c = i % 10;
                     if (a * a * a + b * b * b + c * c * c == i) {
                         System.out.println(i);
                     }else if(i==n){
@@ -18,7 +18,7 @@
                     }
                     }
                 }else{
-                System.out.println("ÇëÊäÈë·¶Î§ÄÚµÄÊý¾Ý");
+                System.out.println("è¯·è¾“å…¥èŒƒå›´å†…çš„æ•°æ®");
             }
             }
         }
