@@ -1,18 +1,18 @@
-//±éÀúÊı×é
+//éå†æ•°ç»„ã€
  public static String toString(long[] array) {
-        // ±éÀú
+        // éå†
         String ans = "[";
 
-        // ±éÀú ³ıÁË ×îºóÒ»¸öÔªËØÖ®ÍâµÄÆäÓàËùÓĞÔªËØ
+        // éå† é™¤äº† æœ€åä¸€ä¸ªå…ƒç´ ä¹‹å¤–çš„å…¶ä½™æ‰€æœ‰å…ƒç´ 
         for (int i = 0; i < array.length - 1; i++) {
             long element = array[i];
 
             ans = ans + element + ", ";
         }
 
-        // °Ñ×îºóÒ»¸öÔªËØÌí¼Óµ½×Ö·û´® ans ÖĞ
-        // Êı×éÖĞ×îºóÒ»¸öÔªËØµÄÏÂ±êÊÇ array.length - 1
-        // Ë¼¿¼ array.length µÄÈ¡Öµ·¶Î§ÊÇ¶àÉÙ >= 0
+        // æŠŠæœ€åä¸€ä¸ªå…ƒç´ æ·»åŠ åˆ°å­—ç¬¦ä¸² ans ä¸­
+        // æ•°ç»„ä¸­æœ€åä¸€ä¸ªå…ƒç´ çš„ä¸‹æ ‡æ˜¯ array.length - 1
+        // æ€è€ƒ array.length çš„å–å€¼èŒƒå›´æ˜¯å¤šå°‘ >= 0
         if (array.length > 0) {
             long lastElement = array[array.length - 1];
             ans = ans + lastElement;
