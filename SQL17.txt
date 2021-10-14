@@ -1,5 +1,5 @@
-//SQL17 ¼ÆËãÄÐÉúÈËÊýÒÔ¼°Æ½¾ùGPA
-//ÌâÄ¿£ºÏÖÔÚÔËÓªÏëÒª¿´Ò»ÏÂÄÐÐÔÓÃ»§ÓÐ¶àÉÙÈËÒÔ¼°ËûÃÇµÄÆ½¾ùgpaÊÇ¶àÉÙ£¬
-//ÓÃÒÔ¸¨ÖúÉè¼ÆÏà¹Ø»î¶¯£¬ÇëÄãÈ¡³öÏàÓ¦Êý¾Ý¡£
+//SQL17 è®¡ç®—ç”·ç”Ÿäººæ•°ä»¥åŠå¹³å‡GPA
+//é¢˜ç›®ï¼šçŽ°åœ¨è¿è¥æƒ³è¦çœ‹ä¸€ä¸‹ç”·æ€§ç”¨æˆ·æœ‰å¤šå°‘äººä»¥åŠä»–ä»¬çš„å¹³å‡gpaæ˜¯å¤šå°‘ï¼Œ
+//ç”¨ä»¥è¾…åŠ©è®¾è®¡ç›¸å…³æ´»åŠ¨ï¼Œè¯·ä½ å–å‡ºç›¸åº”æ•°æ®
 select COUNT(gender) as male_num,round(avg(gpa),1) as avg_gpa from user_profile
 where gender='male' ;
