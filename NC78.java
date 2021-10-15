@@ -1,7 +1,8 @@
-//NC78 ·´×ªÁ´±í
-//ÊäÈëÒ»¸öÁ´±í£¬·´×ªÁ´±íºó£¬Êä³öĞÂÁ´±íµÄ±íÍ·¡£
+//NC78 åè½¬é“¾è¡¨
+//è¾“å…¥ä¸€ä¸ªé“¾è¡¨ï¼Œåè½¬é“¾è¡¨åï¼Œè¾“å‡ºæ–°é“¾è¡¨çš„è¡¨å¤´ã€‚
 public class Solution {
     public ListNode ReverseList(ListNode head) {
+        //å¤´èŠ‚ç‚¹ï¼Œå½“å‰èŠ‚ç‚¹ï¼Œä¸‹ä¸€èŠ‚ç‚¹
         ListNode prev=null;
         ListNode cur=head;
         while(cur!=null){
@@ -10,6 +11,6 @@ public class Solution {
             prev=cur;
             cur=next;
         }
-       return prev;//·µ»ØÍ·½Úµã
+       return prev;//è¿”å›å¤´èŠ‚ç‚¹
     }
 }
